@@ -1,16 +1,12 @@
-# Lingkungan Python lokal
 .venv/
 __pycache__/
 *.py[cod]
 
-# Simpan hanya konfigurasi yang ditulis untuk proyek ini.
-# Reticulum membuat identitas, cache, dan data transport di folder yang sama.
 /config_A/*
 !/config_A/config
 /config_B/*
 !/config_B/config
 
-# Pengaturan lokal editor dan alat kerja
 .vscode/
 .idea/
 .agents/
