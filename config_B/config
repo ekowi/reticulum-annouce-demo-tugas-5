@@ -1,0 +1,13 @@
+[reticulum]
+  enable_transport = No
+  share_instance = No
+
+[logging]
+  loglevel = 2
+
+[interfaces]
+  [[Penerima B]]
+    type = TCPServerInterface
+    enabled = Yes
+    listen_ip = 127.0.0.1
+    listen_port = 4242

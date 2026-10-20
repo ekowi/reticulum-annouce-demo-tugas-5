@@ -1,0 +1,13 @@
+[reticulum]
+  enable_transport = No
+  share_instance = No
+
+[logging]
+  loglevel = 2
+
+[interfaces]
+  [[Ke Node B]]
+    type = TCPClientInterface
+    enabled = Yes
+    target_host = 127.0.0.1
+    target_port = 4242
